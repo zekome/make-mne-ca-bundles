@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 #
-# Download published (gov.me) MNE TrustList, verify, and extract CA certificates.
-# It provides ca-bundle files in PEM and P7B formats, for all, root, and leaf CAs.
+# Bash shell script that downloads the published (gov.me) MNE TrustList, verifies the signature, 
+# and extracts CA certificates. Provides ca-bundle files in PEM and P7B formats, for all, root, and leaf CAs.
 #
 # Copyright (c) 2021 Djordje Zekovic <dj@zeko.me>
 # Licensed under the Apache License, Version 2.0
