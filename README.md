@@ -4,7 +4,7 @@ Bash shell script that downloads the published (gov.me) MNE TrustList, verifies 
 Tested on Fedora Release 33. Note that the script installs the required packages initially. The repository contains ca-bundles from the run example.
 
 You should update TRUST_LIST_URL and TRUSTED_SIGNER_URL variables within the script with valid download URLs for TrustList XML file and the trusted signer certificate.
-You should first search www.gov.me for the latest published records.
+You should first search www.gov.me for the latest published records. Please note that the signer certificate is self-issued, but not self-signed. So, we trust the official published records.
 
 ## Variable settings
 
