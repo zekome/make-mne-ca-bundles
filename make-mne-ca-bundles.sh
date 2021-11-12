@@ -96,7 +96,14 @@ openssl crl2pkcs7 -nocrl -certfile ${LEAF_CA_BUNDLE_PEM} -out ${LEAF_CA_BUNDLE_P
 
 
 # cleanup
-rm -f ${TRUST_LIST} ${TRUSTED_SIGNER} ${XML_SIGNER}
+rm -f ${XML_SIGNER}
+
+ARCHIVE_DATE=`date -d "${LIST_ISSUE_DATE_TIME}" +"%Y%m%d"`
+SIGNER_MNE_ARCHIVE="signer-${ARCHIVE_DATE}-${TSL_SEQUENCE_NUMBER}.crt"
+TRUSTLIST_MNE_ARCHIVE="trustlist-mne-${ARCHIVE_DATE}-${TSL_SEQUENCE_NUMBER}.xml"
+mkdir -p archive &>/dev/null
+mv -f ${TRUSTED_SIGNER} archive/${SIGNER_MNE_ARCHIVE}
+mv -f ${TRUST_LIST} archive/${TRUSTLIST_MNE_ARCHIVE}
 
 
 
