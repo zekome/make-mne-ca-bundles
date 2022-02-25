@@ -8,7 +8,7 @@ You should first search www.gov.me for the latest published records. Please note
 
 ## Variable settings
 
-TRUST_LIST_URL=https://wapi.gov.me/download/7a51aa32-c2e7-4124-a481-46a16570d882?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/45ae6598-71a8-4375-adfd-684b77e93d0e?version=1.0
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/529b9382-b72e-46ec-8668-44ca1943ce6c?version=1.0
 
 ## Run script example
@@ -26,6 +26,8 @@ C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica,
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust GP CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust RP CA
 C=ME, O=GOV, OU=GOVME CA
+C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=Root CA Centralna Banka CG
+C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=CA Centralna Banka CG
 
 ###  ROOT
 C=ME/organizationIdentifier=VATME-02016010, O=Ministarstvo unutra\xC5\xA1njih poslova, CN=MNE eID Root CA
@@ -33,12 +35,14 @@ C=me, O=PostaCG, CN=PostaCG CA
 C=ME, O=Coreit/organizationIdentifier=VATME-02775018, CN=Coreit Root CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust Root CA
 C=ME, O=GOV, OU=GOVME CA
+C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=Root CA Centralna Banka CG
 
 ###  LEAF
 C=ME/organizationIdentifier=VATME-02016010, O=Ministarstvo unutra\xC5\xA1njih poslova, CN=MNE eID CA1
 C=ME, O=Coreit/organizationIdentifier=VATME-02775018, CN=Coreit Sub CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust GP CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust RP CA
+C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=CA Centralna Banka CG
 
 ###  FILES
 mne-all-ca-bundle.pem
@@ -49,8 +53,8 @@ mne-leaf-ca-bundle.pem
 mne-leaf-ca-bundle.p7b
 
 ###  INFO
-TSL sequence number: 1
-List issue date time: 2021-10-18T01:00:00Z
-Next update date time: 2022-04-17T23:00:00Z
+TSL sequence number: 4
+List issue date time: 2022-02-14T02:00:00Z
+Next update date time: 2022-08-13T23:00:00Z
 ```
 
