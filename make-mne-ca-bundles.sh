@@ -12,8 +12,8 @@
 set -euo pipefail
 
 # adjust on next known update (!!!)
-TRUST_LIST_URL=https://wapi.gov.me/download/45ae6598-71a8-4375-adfd-684b77e93d0e?version=1.0
-TRUSTED_SIGNER_URL=https://wapi.gov.me/download/529b9382-b72e-46ec-8668-44ca1943ce6c?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/eea75b66-dac0-4937-bc6b-0bb4016d9510?version=1.0
+TRUSTED_SIGNER_URL=https://wapi.gov.me/download/133d6553-1d2b-4302-833d-3f359441ee2b?version=1.0
 
 # filenames
 TRUST_LIST=trustlist-mne.xml
