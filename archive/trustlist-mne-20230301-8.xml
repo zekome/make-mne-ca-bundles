@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ME_TL" TSLTag="http://uri.etsi.org/19612/TSLTag">
+    <SchemeInformation>
+        <TSLVersionIdentifier>5</TSLVersionIdentifier>
+        <TSLSequenceNumber>8</TSLSequenceNumber>
+        <TSLType>http://tl.gov.me/mju/TSLType/MENationalTL</TSLType>
+        <SchemeOperatorName>
+            <Name xml:lang="sr">MINISTARSTVO JAVNE UPRAVE</Name>
+            <Name xml:lang="en">Ministry of Public administration</Name>
+        </SchemeOperatorName>
+        <SchemeOperatorAddress>
+            <PostalAddresses>
+                <PostalAddress xml:lang="sr">
+                    <StreetAddress>Rimski trg br. 45</StreetAddress>
+                    <Locality>Podgorica</Locality>
+                    <PostalCode>81000</PostalCode>
+                    <CountryName>ME</CountryName>
+                </PostalAddress>
+            </PostalAddresses>
+            <ElectronicAddress>
+                <URI xml:lang="en">https://www.gov.me/mju</URI>
+            </ElectronicAddress>
+        </SchemeOperatorAddress>
+        <SchemeName>
+            <Name xml:lang="sr">ME:Evidencija_i_registar_davalaca_elektronskih usluga_povjerenja_Crne_Gore</Name>
+            <Name xml:lang="en">ME:Montenegro_TrustList</Name>
+        </SchemeName>
+        <SchemeInformationURI>
+            <URI xml:lang="en">https://www.gov.me/mju</URI>
+        </SchemeInformationURI>
+        <StatusDeterminationApproach>http://tl.gov.me/mju/TrstSvc/TrustedList/StatusDetn/MEappropriate</StatusDeterminationApproach>
+        <SchemeTypeCommunityRules>
+            <URI xml:lang="sr">http://tl.gov.me/mju/TrstSvc/TrustedList/schemerules/ME</URI>
+            <URI xml:lang="en">http://tl.gov.me/mju/TrstSvc/TrustedList/schemerules/ME</URI>
+        </SchemeTypeCommunityRules>
+        <SchemeTerritory>ME</SchemeTerritory>
+        <PolicyOrLegalNotice>
+            <TSLLegalNotice xml:lang="sr">Evidencija i registar davalaca elektronskih usluga povjerenja Crne Gore vodi se na osnovu Zakona o elektronskoj identifikaciji i elektronskom potpisu ("Službeni list CG", br. 31/2017 i 72/2019)</TSLLegalNotice>
+            <TSLLegalNotice xml:lang="en">Records and register of providers of electronic trust services of Montenegro are kept on the basis of the Law on Electronic Identification and Electronic Signature ("The Official gazette of Montenegro", no. 31/2017 and 72/2019)</TSLLegalNotice>
+        </PolicyOrLegalNotice>
+        <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
+        <ListIssueDateTime>2023-03-01T02:00:00Z</ListIssueDateTime>
+        <NextUpdate>
+            <dateTime>2023-08-31T23:00:00Z</dateTime>
+        </NextUpdate>
+    </SchemeInformation>
+    <TrustServiceProviderList>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Ministarstvo unutrašnjih poslova</Name>
+                    <Name xml:lang="en">Ministry of the Interior</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">Ministarstvo unutrašnjih poslova</Name>
+                    <Name xml:lang="en">Ministry of the Interior</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bulevar Svetog Petra Cetinjskog 22</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">https://mup.gov.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://mup.gov.me/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MNE eID Root CA</Name>
+                            <Name xml:lang="sr">MNE eID Root CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEwDCCAyigAwIBAgIJFmlz0DZPb6mSMA0GCSqGSIb3DQEBCwUAMGwxCzAJBgNVBAYTAk1FMRcwFQYDVQRhDA5WQVRNRS0wMjAxNjAxMDEqMCgGA1UECgwhTWluaXN0YXJzdHZvIHVudXRyYcWhbmppaCBwb3Nsb3ZhMRgwFgYDVQQDDA9NTkUgZUlEIFJvb3QgQ0EwIBcNMjAwMzEyMTQwNzU3WhgPMjA1MDA2MTIxMzA3NTdaMGwxCzAJBgNVBAYTAk1FMRcwFQYDVQRhDA5WQVRNRS0wMjAxNjAxMDEqMCgGA1UECgwhTWluaXN0YXJzdHZvIHVudXRyYcWhbmppaCBwb3Nsb3ZhMRgwFgYDVQQDDA9NTkUgZUlEIFJvb3QgQ0EwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCxgsLSnqa945suauHLbGZ2zKjXb1KAmiscvskAbjyUYkZmdYnaEiNC7XqBYyIEHCGPhf/mCTVqB6JY9hg77Ccd3G7lphKlhjGpnJ5gALZeaOfyR7t0GzO4Gk9GRmKmLQJft172HgOL4wj03aRDP93YXd4zvMhInXutTs+3lT6TzhGJpQ9cVQC6Hqc4jf1cIAoAxJlVPXI4noBhJsFkM2MmOYCPIUgrb0rXrI7C9nzvS/2clvpX64ZRNUAM5nUHGkc/PHb3MW9miJb8hO3RhSVpbcKnXKQJzZjsJqGfc66TI14gJ9uMfWz5PqU/VP0yc74THa1PRGu/B8H5m0xEBHyqphAbqoA8H0wNJOZXeDPH6+mjH54U1K5XsPqY+7fq1txoxcQpT9kokiH/Ua5PCOe6QOgZWV0SDcq6wYkh+XqI00GwLLUZwdamkYePT6E+dT8iNlGAPZZnbQWvPHERkrIPTPfPanm1BD905dMPGJFFO/zM9czD/dE7JATKF6bfTEMCAwEAAaNjMGEwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHwYDVR0jBBgwFoAUd5g2JRXHojeeu3bnxcl85/nl60EwHQYDVR0OBBYEFHeYNiUVx6I3nrt258XJfOf55etBMA0GCSqGSIb3DQEBCwUAA4IBgQB4H2Qy1qdHai2o3R9mJS7UOfqwswTAm2mKHDNjjjc5SHHKjqDgJqyh6ZI0Lm87grB1e82wKB7LOewW85Eyx4ba0n6Z3V/F6jCdjyby+1BsMtxWVk5YHm97MX6FeUhYwBzxTgiA5XBHqPoDaR1LZG3Ycm4y0KaCxgssiYj0qX+Ja5rJClpxwAuvVOiqt/7zaEGbkDjcbGFednk2tMSzZlTdGtAFQ6fma8A72KLwNjkhSIBZMsQDho57Vrch+3Nep9E6VLHt+LOLAODwtQpIJHGK7ZJx1h3O3iAmkcZMgj/Ek3cE2g2jXi87colGPaPn9VVhkPLEBvRfZP3QY1LJGtlNLWFQh/8QcL1lZ/sAI8Znaqb6aIhTQHAVQuGY4k10vdx9rJXDiRQyU1MHaPbiKyWOSu4BlLZjYsiig0VNeNQmC8YwPXt+oIZ3YQnyXt0uVcnVvKKYe+caLlWzthITd+Y8lwQaDrZjYZfj13NPVeiK0gDKqkQVBbfTWVkVv4ez1HQ=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MNE eID Root CA, O=Ministarstvo unutrašnjih poslova, OID.2.5.4.97=VATME-02016010, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>d5g2JRXHojeeu3bnxcl85/nl60E=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-04-22T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">MNE eID CA1 Certifikat za kvalifikovani elektronski potpis</Name>
+                            <Name xml:lang="en">MNE eID CA1 Certificate for qualified electronic signature</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MNE eID CA1, O=Ministarstvo unutrašnjih poslova, OID.2.5.4.97=VATME-02016010, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vjkmWjVhFYnPMC+NIcPO2LG4J+I=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-04-22T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">MNE eID CA1 Certifikat za elektronsku identifikaciju</Name>
+                            <Name xml:lang="en">MNE eID CA1 Certificate for authentication</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MNE eID CA1, O=Ministarstvo unutrašnjih poslova, OID.2.5.4.97=VATME-02016010, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vjkmWjVhFYnPMC+NIcPO2LG4J+I=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2020-04-22T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Pošta Crne Gore AD Podgorica</Name>
+                    <Name xml:lang="en">Post Montenegro Podgorica</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">PostaCG</Name>
+                    <Name xml:lang="en">PostaCG</Name>
+                    <Name xml:lang="sr">POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA</Name>
+                    <Name xml:lang="en">POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Ul. Slobode 1</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Ul. Slobode 1</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="sr">mailto:info@postacg.me</URI>
+                        <URI xml:lang="en">mailto:info@postacg.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">http://www.postacg-ca.me/</URI>
+                    <URI xml:lang="sr">http://www.postacg-ca.me/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski potpis / elektronski pečat / autentifikacija internet stranica Posta CG-CA</Name>
+                            <Name xml:lang="en">Electronic signature / electronic seal / website authentication Posta CG-CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEeDCCAuCgAwIBAgIETPjEWjANBgkqhkiG9w0BAQUFADA0MQswCQYDVQQGEwJtZTEQMA4GA1UEChMHUG9zdGFDRzETMBEGA1UEAxMKUG9zdGFDRyBDQTAeFw0xMDEyMDMwOTUwMTlaFw0zMDEyMDMxMDIwMTlaMDQxCzAJBgNVBAYTAm1lMRAwDgYDVQQKEwdQb3N0YUNHMRMwEQYDVQQDEwpQb3N0YUNHIENBMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA8ZE4L8pwgsz6mh3FEzFM8tKjlRKZH3AeXtOHK4vuKGuZ3Tu/ngDVDjfJHJY+V8fr623qXJxEN4JhKF4I964xIm4G1FHc44JAEG3UH+PMF8N6xH8GM3jQeQu6ctakCsCtA/Sed8sJiKq2k93X6/MOgNlgN94rEShpJ5m2TXomtGlpVAY4DZLurpoaQmhgpDLWnmLQSD/0WHIz4XiYDyXoXVC1Say1w5n/0tHN/Xw1AYXtprLYOcZH1E9FBKQcpz0/8qNdQCHj+vLjFdd4e40+BKMqFcyoeDzC5vGSmPWztA3XgAoaxW0ZfD96tPSp6kDmXzEtZvpE1D9nw2RWf0sLA7NEdXlzWiArTN9Pi1dKLCVPo8paigI4f3BoccM/ijO78+hhwDpAIQVP34Dx+24azFu3JS3P38Y6ywg64u/JAcVdv718Uaqd9lPUqEMgs17grbcniM5gn9i3mBvdJD8LsHKRlClMj6b8PpAdBx9fJHpJzbPedj4P0QFeinXlgRvRAgMBAAGjgZEwgY4wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwKwYDVR0QBCQwIoAPMjAxMDEyMDMwOTUwMTlagQ8yMDMwMTIwMzEwMjAxOVowHwYDVR0jBBgwFoAUd2NMWDK5VNEaCfd0LqurjTyqKvEwHQYDVR0OBBYEFHdjTFgyuVTRGgn3dC6rq408qirxMA0GCSqGSIb3DQEBBQUAA4IBgQBFM7C2giRzWtz8IHEuorBs3DVxcVVTnPCTeI/DTM3qmHGnfSV85fUA7HQhYFBtfqSgoPb86EQZtxBcxd4QujAVMSZsdHRHkHV9N/rqXrsh5WKt09DP8kA6qOB4uTa9hKj8x2bVS6VF1JWjcDPYArNcOj/4xEJ4jXig3808/iHJW5C7nvx/D3WUWtfoVckVYEf0D1hjScmQQ8+yVhlUmllh9uJ3SGB4UYI78MPY6ypdw2HkntzKQo5IW6bLjveQ/cvGT3if4eUIgzagG006LYYQ1A1/xuByxGjNVgYeDI+n0kjzZaJ+6wIGQ5hCELfkAYdT6WjNdeNVuBBXe5gJNqvsAtsMcSZpa97Rcnyv0FkyNtSXka19t7y2xanHraqDdWHTI0AvoOUNBzo21Rrk4ZGLrTinhe2nvf1kRBre0loWIkem8Yu/nKvVO5duWLz91Maa6aS07YmOwGM8wxN42PJqKMKoDAqnlDqWcwxgMhCx7iEFn0dR3ErtULDekkTe1Bk=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=PostaCG CA, O=PostaCG, C=me</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>d2NMWDK5VNEaCfd0LqurjTyqKvE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2019-02-24T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01</Name>
+                            <Name xml:lang="en">Electronic timestamp TSU01</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=TSU01, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>E/ufAo/xzQ8qPZw/7e91YPCHfEs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-02-20T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski vremenski pečat TSU02</Name>
+                            <Name xml:lang="en">Electronic timestamp TSU02</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=TSU02, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>WMFCsIGEeNCIVfL4NMLR2gWDgso=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-02-20T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronska preporučena dostava ER pismo</Name>
+                            <Name xml:lang="en">Electronic delivery service ER pismo</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=39278 + CN=ePismo Prod, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>cEKMeKSp7qFjbRoCozXf9Tch3Q8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-07-20T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Usluga elektronske preporučene dostave</Name>
+                            <Name xml:lang="en">Electronic delivery service</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=39278 + CN=ePismo Prod, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>cEKMeKSp7qFjbRoCozXf9Tch3Q8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2020-06-21T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01-2021</Name>
+                            <Name xml:lang="en">Electronic timestamp TSU01-2021</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=TSU01-2021, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>qnM3C+njlCZefikRETPNHqs22K4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-02-22T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski vremenski pečat TSU02-2021</Name>
+                            <Name xml:lang="en">Electronic timestamp TSU02-2021</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=TSU02-2021, OID.2.5.4.97=VATME-02867940 + O=POŠTA CRNE GORE AKCIONARSKO DRUŠTVO PODGORICA, OU=Pravno lice, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KXtFHCa0oyntUKaXeusdlWorl3M=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-02-22T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Coreit doo Podgorica</Name>
+                    <Name xml:lang="en">Coreit doo Podgorica</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">Coreit</Name>
+                    <Name xml:lang="en">Coreit</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Bulevar Džordža Vašingtona 98/3</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bulevar Džordža Vašingtona 98/3</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="sr">mailto:info@ca.coreit.me</URI>
+                        <URI xml:lang="en">mailto:info@ca.coreit.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="sr">http://ca.coreit.me</URI>
+                    <URI xml:lang="en">http://ca.coreit.me</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Coreit Root CA</Name>
+                            <Name xml:lang="en">Coreit Root CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEhTCCAu2gAwIBAgIINQZ7Co6P5SkwDQYJKoZIhvcNAQELBQAwUDELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFzAVBgNVBAMMDkNvcmVpdCBSb290IENBMB4XDTE5MTAwNzA5NTQzNloXDTQ5MDkyOTA5NTQzNlowUDELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFzAVBgNVBAMMDkNvcmVpdCBSb290IENBMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAwyVSly+rtSMNrqD+yuKh1pVbX+ljjKxnnwLoFTZPtYYSkj0RDRjP5IWiWJvN717s5VFGM7IEJK0F8+miUOetpZ8tiHClbMHqYD7UHUbwDik12YxhIiCXW5841HDrwBwOsO2LbSKh0OHHpe/CXgmsJZ6NGY0x1j23DDG8BkIKb4B/m47v/bFBtxc1wuTMMzxdyMfIh9s5GTmlBY3xj6IE8LCK74MSZa+NQKePGJNHVHjY39GUu3+YJkkW3K9G0t1z7QfsjIJQsJXUGJgsi9jFi4kIhl0vcp4cmySDkfT7vsmpjURJwCBsYMm+/w9Oozs3cHUfZdsjUXh496ZJ0qFJC9P73bX6Dt89mSAfd29lAabij3zgjA+UORP+irsF+iW3/I+au/6D8ZQMOMVuHKHTwXnaykH8bsAMot0XYr9Dpb5serR/V2jWQIl7SVLdePs8UkLP+izZCM8WKzYqgNpSTD2lNASQtDi0HIZ3DhOHGcH+gu3+gfBLcp1WEsXYnrE9AgMBAAGjYzBhMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUvajBFCyn7EIHBmwqSLOVJeegLXcwHQYDVR0OBBYEFL2owRQsp+xCBwZsKkizlSXnoC13MA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAYEAIsF/vTAfX052j51DKp18tSPkQ/fLjnXO2eR9m4Q9hpDIUQ6B34PiSMkfnzQVjXycNkWJK5b13N7UKbgCRtLUjyMY9bdg3hQYAVeVUfhg7KG0KG7X9lSbAD2vJkcCocH+MdF+utm1W5QIYEiGZI5V54M44+oxt9EhRkn1aA8dKms35TomGNnEVkgjRWNcCNqRnvr+osT/r1NKPXyOlizDcyd8Xx0iUnyl8keq0mCnkeG4CeupOEinmLrCBLPqiwUWHkZC9Jw4cmx3+/MiGd1rPGCXvXcSGCfPu363zlKywDxG5q14AVeIAI16RBxSZ9yXnJ45ejjQs97U7+m9ab4PfOLI/94IAb4F7SC5BXt80iOog+TRpB+Cde7LYhnrHJMOTaD3NyM+vJ9EqH9YX8CzoblH5lpqH39yEmH2lC6tLytN8z7hYREWJAjErkmYiAB9XcDPhYgHjmVmWYz6KtdGrfusV5SH/o9VHp2rBrQHTRYPlrHCn9grOjnG3VBKJJZ1</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Coreit Root CA, OID.2.5.4.97=VATME-02775018, O=Coreit, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vajBFCyn7EIHBmwqSLOVJeegLXc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-02-20T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Coreit Sub CA</Name>
+                            <Name xml:lang="en">Coreit Sub CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFczCCA9ugAwIBAgIILgZkQHePQdYwDQYJKoZIhvcNAQELBQAwUDELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFzAVBgNVBAMMDkNvcmVpdCBSb290IENBMB4XDTE5MTAwNzEwMDM0NFoXDTM5MTAwMjEwMDM0NFowTzELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFjAUBgNVBAMMDUNvcmVpdCBTdWIgQ0EwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC9227BDh/C5DJOurv2CxlIe0VQUElj0sd8PzGWNLM26ynCCQMqYwlkYxT4XjNfJpYQSVp7ZpiE57P8YSxkk2CBB7ks2b65ldGYWKbfa+mAQpUaYlkYpTutQm54QcyWSPSwCovYIHtWyO+0nnBQew88dg6gBkT1yjn4peJFZAfQrLSPksibzpJbMltegvEovIzkAYwVIcHqfHxZNebONpP8qL68L0AZCpbQCxRvnB+ASSne1f0PmINcNgqh8zRZKZVn5F103BlTrTH1aa6b90ZvZhnoLfWJeKVPLOpJg11QE5hPIExWSYLpKbQ8mFfaM0Z72wnZIwlZyKvl0p0kIJM4EFqqRAekAENHPu76e64HRMFJWJAyg912xFzZh7PuTrMVjYkXVLGCvJq/cPcPspkOZnrLvkB6JyiPRnsKsE1kvNQBW2Eu09qqbm/6U4Ho2pM/1mTxAVUjl9fGK8o7W2lSzO2jriBfAAulWSX4bKE5Ubh28sKefqf2YE8d8c40iusCAwEAAaOCAVAwggFMMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUvajBFCyn7EIHBmwqSLOVJeegLXcwcwYIKwYBBQUHAQEEZzBlMDAGCCsGAQUFBzAChiRodHRwOi8vY2EuY29yZWl0Lm1lL0NvcmVpdFJvb3RDQS5jZXIwMQYIKwYBBQUHMAGGJWh0dHA6Ly9vY3NwLmNhLmNvcmVpdC5tZS9Db3JlaXRSb290Q0EwOQYDVR0gBDIwMDAuBgRVHSAAMCYwJAYIKwYBBQUHAgEWGGh0dHA6Ly9jYS5jb3JlaXQubWUvY3BzLzA5BgNVHR8EMjAwMC6gLKAqhihodHRwOi8vY3JsLmNhLmNvcmVpdC5tZS9Db3JlaXRSb290Q0EuY3JsMB0GA1UdDgQWBBRS3xfznifJOu61Gx/QkwDS8wtU/jAOBgNVHQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQELBQADggGBAJ6zjWA35I/Aaq6Zl+L5AKzi4R9ZWF7EgWV8jgVdj0FZxfXfoxAU/PztFyGp3XCSwBFzaucg6STigIljwoxbiErwfC6dgtryZxkh8IwUox1Hfa0t61ievLpygxj0NQAi6V1maGw6geMJXQK/2hUW+4wmiv6PT5yB4BLSre3Did/rQHW5iLJl/tzR1ZgN/aFLDV9y6JZvj01SBuWJc6Su9Y1y5+dgeYwJ56eFQTGsUzMH522h6ouRdi8iOPhTb8qNHkEm0WhMPR8fDUx9q3IXrF2H2U2Jf/Lttqe7Y3fw38fVlZfaEzeyHpgCLcKFaCU2boksfPZ6bof4/zOGXAq5f/6kxz9sXKtqRShlkFlLcy3jJGI3WEUEJzQDh33xYX+iMWvDbh2h8AdqHCVHgHKRIjN06VAa4y/57QxnvTtmWA/ZNFdckafj11hHnKNxLXYVQ7usCOeWPePDRJv4Nxkve6dpAvuBVbkV/7CwIf2zalRcj7v5kJY+3VIyX+LXD809ow==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Coreit Sub CA, OID.2.5.4.97=VATME-02775018, O=Coreit, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Ut8X854nyTrutRsf0JMA0vMLVP4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-02-20T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Elektronski vremenski pečat TSU01</Name>
+                            <Name xml:lang="en">Electronic timestamp TSU01</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFBTCCA22gAwIBAgIIA2XnfXnnQ1YwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFjAUBgNVBAMMDUNvcmVpdCBTdWIgQ0EwHhcNMTkxMDE3MTIwODQzWhcNMjQxMDE1MTIwODQzWjBHMQswCQYDVQQGEwJNRTEPMA0GA1UECgwGQ29yZWl0MRcwFQYDVQRhDA5WQVRNRS0wMjc3NTAxODEOMAwGA1UEAwwFVFNVMDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbxFyhuMiXy/XD2RoUp4ezjvNhAwNLLXYtcAUN1WzG2pphv6Rup+ljuq3ZLYEUjLGptqvVu6Y3iMDukLZ+Pn+QfPfI3xnOTBHbyCmbcr9pVf7a1skDDohmu28rLG2PDtVXcVlLFYxvPHUTq7JF9znaeF66g4fHK/JTAiUh1fk6c1jm2c22J7j914BKHn9xGGtnWFnyF8boq91z7ci3ac3hRLnJQwV8JRYTQmipvjYtDMSFozIAJkEyNeR+bEsO2shIdHbp7QWs8Md5c6JyXt1vQWJAKI9jP7PvLRRooG6OWpmivkhL38Ce3sXPVjHZAiZNPjxflB7T8f29AXFD9tAdAgMBAAGjggFrMIIBZzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFLfF/OeJ8k67rUbH9CTANLzC1T+MHEGCCsGAQUFBwEBBGUwYzAvBggrBgEFBQcwAoYjaHR0cDovL2NhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQS5jZXIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9vY3NwLmNhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQTBCBgNVHSAEOzA5MDcGDSsGAQQBg6MpAQEDAQEwJjAkBggrBgEFBQcCARYYaHR0cDovL2NhLmNvcmVpdC5tZS9jcHMvMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly9jcmwuY2EuY29yZWl0Lm1lL0NvcmVpdFN1YkNBLmNybDAdBgNVHQ4EFgQUcfkxwZ82TyMqFBQ/7JOJJRLlrOUwDgYDVR0PAQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBgQA4A3mlzXvYQMWLGNnqqhiT+kBrBd87o3uIGJ5oVoCs4Ge+rGFFkcRgnBArnNKGZ0uq52Db9afwX7wQn7r7/iaGUr1L039xQ1gwaey1ijCdPeABG6PhDl2sdLCc00vm1+I2hT1yvehS+QVYTwD9YE5B5gxbLtK6z5R3F79IsJg/TpFEvzybqanNanDoQsRWAaFcFQS70BX6uaTkONwdoVT3VRS7g8eJYTcDvr/zXhzUw6RhfIx99epJBHfw7taR9qy28tpiYvbnd7SqkFmp3CWgf16+uPEsahL0xcct5xlnXXsEyuiXpf4hrf6l2dShhApbtJ7hSCcywilsUfiRO3Qswe6rnaiEDZEblsBW6uUEQhHoWEBGZH2dxaOcJd1tBmJz/S/8ze/iZJpaIZI7V0KTk5Vm8BvvDNEzPGd0hwTXAp4SgASHiUdiGplEz064cFqjKZmgyKMivTNLmf6w9YTBhzfKh29LND2vQOy8Jw7ayjhVIjS5JrkYIT3aXjEjDQ0=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=TSU01, OID.2.5.4.97=VATME-02775018, O=Coreit, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>cfkxwZ82TyMqFBQ/7JOJJRLlrOU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2020-02-20T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Crnogorski Telekom A.D. Podgorica</Name>
+                    <Name xml:lang="en">Crnogorski Telekom A.D. Podgorica</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">Crnogorski Telekom A.D. Podgorica</Name>
+                    <Name xml:lang="en">Crnogorski Telekom A.D. Podgorica</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Moskovska 29</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Moskovska 29</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="sr">mailto:office@telekom.me</URI>
+                        <URI xml:lang="en">mailto:office@telekom.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="sr">http://www.telekom.me/ctrust</URI>
+                    <URI xml:lang="en">http://www.telekom.me/ctrust</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust Root CA</Name>
+                            <Name xml:lang="en">CTrust Root CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFNjCCA56gAwIBAgIJbZJ+tKy4ANwDMA0GCSqGSIb3DQEBCwUAMGsxCzAJBgNVBAYTAk1FMRcwFQYDVQRhDA5WQVRNRS0wMjI4OTM3NzEqMCgGA1UECgwhQ3Jub2dvcnNraSBUZWxla29tIEEuRC4gUG9kZ29yaWNhMRcwFQYDVQQDDA5DVHJ1c3QgUm9vdCBDQTAgFw0yMDExMTkxNTQ5MTNaGA8yMDUxMDIxOTE1NDkxM1owazELMAkGA1UEBhMCTUUxFzAVBgNVBGEMDlZBVE1FLTAyMjg5Mzc3MSowKAYDVQQKDCFDcm5vZ29yc2tpIFRlbGVrb20gQS5ELiBQb2Rnb3JpY2ExFzAVBgNVBAMMDkNUcnVzdCBSb290IENBMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA2AZRlkOuCrWfmPTaLBprdewuIPv4HsaM7z7DQw63w0ycOixmMfJBA/Iqu2iggZG5/dOITn6vMZC1W+hJrCZZp5DsCk/dJB9/Q1FPcOFzqNzkblV+SiefjlcL5lPlWl3ErQ8tbMNst9Hniih4NodwM1ZNCjKNAUUrBZjuiZMBepSoJroopOarJy9SaY//5rrQho9phu9RmAwWOlVz7a6bGH3tofkNeGM/4xjJ019fPP6GgNi3D3hom+WuXESqgQ8CphYvj4KoRMlHIRT/EK4qokU6fv2by86Lpc+F7U+SyJTxWqxtEq6MpDKKYwgRzpEInMEI+T8/fH0wUV2DE/XbUPdPrjpd0CNiAh7NrtRNOhPzkN36WCGuZZbBmcl5S/xzijEXckdg+EedmIiTM2kN3Oon/4b8smyhiWHsgVYWCc84NjRu+sLLUqT2tUrVMOMQtvlYoAfPXADPbCWjGRkOJpXUZFIZ5s6pM5Hgf8RFpGSQDzq79zNzD9XuoUtV+VIDAgMBAAGjgdowgdcwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHwYDVR0jBBgwFoAUS6wbUdIjeuU2Z8XR0Y0eeaP2RoEwHQYDVR0OBBYEFEusG1HSI3rlNmfF0dGNHnmj9kaBMHQGA1UdHwRtMGswaaBnoGWGMGh0dHA6Ly9jYS5jdHJ1c3QudGVsZWtvbS5tZS9jcmwvQ1RydXN0Um9vdENBLmNybIYxaHR0cDovL3d3dy50ZWxla29tLm1lL2N0cnVzdC9jcmwvQ1RydXN0Um9vdENBLmNybDANBgkqhkiG9w0BAQsFAAOCAYEABMbb9Ag0qrcsctyaNsCycej85qO0q3kiQMnBcNCMK2bTXXHPhhv2rmu8QuNT4VLlGRX/SexQWm0fBgP0VPEW7dYqQarp5wudy3z6HZg29UWiSFRNfYQEHsEiXKIgDbjoA1dVy2+9Ze2++6hlW7nr+dAuvNehuWJhfdD6PGVLcWKhcqhoalX8ylpFKnsE/lpyhrvEJQj/0tvExakWYjmdv5zUgPNDsFN8rveqtJCK6BGAW9eaoGPlU7C8jNQAeb7LWShT1hnB9YiO6uhPTUzrYaJZqoRIyOSOrb59K32zLENo6pJbh9PcBs/Z1hEkPmfDpp47SE55WI0SDBkIRgoGyboTfn5wToVNH6RRPqqeQ7/qvGgw+mBEC/8eouLpVnLxC1+33tLtgzDVdOdzCJ0h160F3orKjDismKn4thJIeCEbeSTQ7uZi5xoUEOVdkBbUlCmmvpUDiAv7xwE3E9WZ8pwLB1MFaGpjq3P/KqwsjFfq1na5fOyPi7DWVKOfNMDj</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CTrust Root CA, O=Crnogorski Telekom A.D. Podgorica, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>S6wbUdIjeuU2Z8XR0Y0eeaP2RoE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-02-24T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust GP CA</Name>
+                            <Name xml:lang="en">CTrust GP CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CTrust GP CA, O=Crnogorski Telekom A.D. Podgorica, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>gGtgp4ri0dCa0C64Xl+hsfYbRkE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-02-24T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust RP CA</Name>
+                            <Name xml:lang="en">CTrust RP CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CTrust RP CA, O=Crnogorski Telekom A.D. Podgorica, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>BjbP3a/j+lXmzEgQAVxOcIZjw0U=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-09-08T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns3:Identifier>1.3.6.1.4.1.56393.1.3.1.1</ns3:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns3:Identifier>1.3.6.1.4.1.56393.1.3.1.2</ns3:Identifier>
+                </ns5:PolicyIdentifier>
+                <ns5:PolicyIdentifier>
+                    <ns3:Identifier>1.3.6.1.4.1.56393.1.3.1.3</ns3:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust QTSA TSU01</Name>
+                            <Name xml:lang="en">CTrust QTSA TSU01</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIGxzCCBS+gAwIBAgIJJe+GsvMX3FaFMA0GCSqGSIb3DQEBCwUAMGkxCzAJBgNVBAYTAk1FMRcwFQYDVQRhDA5WQVRNRS0wMjI4OTM3NzEqMCgGA1UECgwhQ3Jub2dvcnNraSBUZWxla29tIEEuRC4gUG9kZ29yaWNhMRUwEwYDVQQDDAxDVHJ1c3QgR1AgQ0EwHhcNMjEwNTIwMDkxOTA0WhcNMjYwNTIwMDkxOTA0WjCBozELMAkGA1UEBhMCTUUxFzAVBgNVBGEMDlZBVE1FLTAyMjg5Mzc3MRQwEgYDVQQLDAtQcmF2bm8gbGljZTEqMCgGA1UECgwhQ3Jub2dvcnNraSBUZWxla29tIEEuRC4gUG9kZ29yaWNhMREwDwYDVQQFEwhDVCBUU1UwMTEmMCQGA1UEAwwdQ3Jub2dvcnNraSBUZWxla29tIFRTQSBTZXJ2aXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAt6FsVuWYAgtPBO9WnKnZpkbKk+uHtFVLv4W+F2+1l61LemRphygiqrOUCFw7LFovc0i91htQV+nguDpJHGpeOa3/iALMy6i98pc3nF5zjkzAdt1hlF9NT7zempNIigyKZVa6n4tBSmaV0YMwOYMbsEvXWzS/Fljls1lDDXhp1rIFOadv4LrrNy+PlIkmG6FPPa/f5Sl58LVrusaIrz7P05k8JiXdbhHhygVJNmWB86PXppy48VBjpOsC54W+GiEHaZFUhTQvCDfTk2se9ueKtum42BBEGdzmaGQ9aj6ugpi20j4WLcq6kqJTpQ7Lk2G936jlVzOJLipiUJbgC2KfAgMBAAGjggK1MIICsTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAfBgNVHSMEGDAWgBSAa2CniuLR0JrQLrheX6Gx9htGQTAdBgNVHQ4EFgQUWNtJ12BxIlfejFfM6TG6kJDu40UwcAYDVR0fBGkwZzBloGOgYYYuaHR0cDovL2NhLmN0cnVzdC50ZWxla29tLm1lL2NybC9DVHJ1c3RHUENBLmNybIYvaHR0cDovL3d3dy50ZWxla29tLm1lL2N0cnVzdC9jcmwvQ1RydXN0R1BDQS5jcmwwgboGCCsGAQUFBwEDBIGtMIGqMAgGBgQAjkYBATATBgYEAI5GAQYwCQYHBACORgEGAjCBiAYGBACORgEFMH4wPRY3aHR0cDovL2NhLmN0cnVzdC50ZWxla29tLm1lL2NwY3BzL0NUcnVzdEdQQ0FfcGRzX3NyLnBkZhMCc3IwPRY3aHR0cDovL2NhLmN0cnVzdC50ZWxla29tLm1lL2NwY3BzL0NUcnVzdEdQQ0FfcGRzX2VuLnBkZhMCZW4wgYcGCCsGAQUFBwEBBHsweTA9BggrBgEFBQcwAoYxaHR0cDovL2NhLmN0cnVzdC50ZWxla29tLm1lL2NhY2VydC9DVHJ1c3RHUENBLmNlcjA4BggrBgEFBQcwAYYsaHR0cDovL29jc3AuY3RydXN0LnRlbGVrb20ubWUvQ1RydXN0R1BDQU9DU1AwVgYDVR0gBE8wTTAJBgcEAIvsQAEBMEAGDCsGAQQBg7hJAQIAAjAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY2EuY3RydXN0LnRlbGVrb20ubWUvY3BjcHMvMCsGA1UdEAQkMCKADzIwMjEwNTIwMDkxOTA0WoEPMjAyMzA1MjAwOTE5MDRaMA0GCSqGSIb3DQEBCwUAA4IBgQAdQgM8+7zgQeliU3p5q6HNLeCohHIbc5eIsmQD8RrOYnTiZFeV4eKYflwb8dZ6qLiUCDYNuvOfK7nhe4SeJvHXIJoLucm9AyEQpFH9oI2hL1zTJV2+bLSsQarDdLIh65NevGt+RZKbMzGETSOR3NzLexRauyxvcWUOVtEyBPgHzP2IMoUnQ3JC1VArFxW13RbfAv5RYqF2IfazDDDmflxcZR9G4vR7OWxzZ09VEjhuyo/pzfSH4NtAUzMGTLsli/dblt3qOs1jyiNaM23F6JYl9tU0CArblcy8TNF4IgYdKWikHlFP1DJl2La8LtV1eq6MyL2AWj8imdqCehn6sRwSWI6qWWhAqpygWIfEoFXiNjBMca0F2L8NB2Pc6izrU16frDy9+Rhbw4ktHpouS9zchxi8Up+KUXwZXbwauHd0c4pcs5RG/De2xoVBZiGuZyMCFWCmOFVtu56iQPi3JTYhTJgnpw69o7jReXyfQSlqaQixA0Gpv8ylKhRUaWgnA1Y=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Crnogorski Telekom TSA Servis, SERIALNUMBER=CT TSU01, O=Crnogorski Telekom A.D. Podgorica, OU=Pravno lice, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>WNtJ12BxIlfejFfM6TG6kJDu40U=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-08-24T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CTrust QSVA SVU01</Name>
+                            <Name xml:lang="en">CTrust QSVA SVU01</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Crnogorski Telekom A.D. Podgorica QSVA Servis, SERIALNUMBER=CT SVU01, O=Crnogorski Telekom A.D. Podgorica, OU=Pravno lice, OID.2.5.4.97=VATME-02289377, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>iZiLxkWH5qq65uoG1cpoIFgkMmA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2021-09-08T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                    <Name xml:lang="en">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                    <Name xml:lang="en">Ministarstvo javne uprave, digitalnog društva i medija</Name>
+                    <Name xml:lang="sr">GOV</Name>
+                    <Name xml:lang="en">GOV</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Rimski trg 45</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Rimski trg 45</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:pma@pki.gov.me</URI>
+                        <URI xml:lang="sr">mailto:pma@pki.gov.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="sr">http://www.pki.gov.me/</URI>
+                    <URI xml:lang="en">http://www.pki.gov.me/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">GOV CA</Name>
+                            <Name xml:lang="en">GOV CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFrjCCBBagAwIBAgIEStmy6DANBgkqhkiG9w0BAQUFADAuMQswCQYDVQQGEwJNRTEMMAoGA1UEChMDR09WMREwDwYDVQQLEwhHT1ZNRSBDQTAeFw0wOTEwMTcxMTM1NTVaFw0yOTEwMTcxMjA1NTVaMC4xCzAJBgNVBAYTAk1FMQwwCgYDVQQKEwNHT1YxETAPBgNVBAsTCEdPVk1FIENBMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAt1soLYb08HzlLogTsXQSO7usV/gaDJv8axK/vOlyCDIQDu5DLyYb23VDYrOap9bi8/mq7HJCOZT3s76zN61wevyV/TCfkaNQV12Qw+D4K+ksvyGpF2YWFeST2faSbG6Ww4YBKOZFpdfMiKXrZqPKpEYT1BhDhPcigp6/oVk1KWip9Qwws4mwL+R+CepN4YIdzNvJa/CmQebfstXkBAq0NxCpkpgs1ZZygMiWIRb94l/OcDO01R/nCSTxlRRqt2sQKn+f9oO28P9i5HFr+3kNhPua9/c/Bc/Tcf+7L3FLtdmHt5t3NU8M+10nFKceRkYrLVrac23G3790fLM50faPeyt1o80stUE7/BIHjZhKUb5D9WlzgKSMtR8CP29ZahbusRpDWLGh9VDYAkKytzA9o8DNpAOsxyhIileOo/VCHQoCYXM9YGNWgm5FyiylTWf8ZB+iHxfqIPcW0TovR3HGJlSxDJ3LesdaIrdA+lKCo3T4awwlrs9m266c5sWWkv4BAgMBAAGjggHSMIIBzjAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjARBglghkgBhvhCAQEEBAMCAAcwggEKBgNVHR8EggEBMIH+MEWgQ6BBpD8wPTELMAkGA1UEBhMCTUUxDDAKBgNVBAoTA0dPVjERMA8GA1UECxMIR09WTUUgQ0ExDTALBgNVBAMTBENSTDEwgbSggbGgga6GUmxkYXA6Ly9sZGFwLnBraS5nb3YubWUvb3U9R09WTUUlMjBDQSxvPUdPVixjPU1FP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3QlM0JiaW5hcnmGKWZpbGU6Ly9cXGdvdm1lY2FcQ1JMXCBnb3ZtZWNhX2NybGZpbGUuY3Jshi1odHRwOi8vd3d3LnBraS5nb3YubWUvY3JsL2dvdm1lY2FfY3JsZmlsZS5jcmwwKwYDVR0QBCQwIoAPMjAwOTEwMTcxMTM1NTVagQ8yMDI5MTAxNzEyMDU1NVowHwYDVR0jBBgwFoAUqS9x7g80sQddiS4zR9eBdyo9YLgwHQYDVR0OBBYEFKkvce4PNLEHXYkuM0fXgXcqPWC4MB0GCSqGSIb2fQdBAAQQMA4bCFY4LjA6NC4wAwIEkDANBgkqhkiG9w0BAQUFAAOCAYEAVKH0W0AUWcA+ie61AB+jX9m9i6B5cB0PULWvyzQCZwrp4UVuokAKMMOLzS5O+fddS5HeDSPezu+VmjkpeEQKwPGrmncn6kjbGZNTbGM2vRpBRR1pVGq+jKli9A0ntq8opRnz9VbL3CX84cDAb4LeKjlx9Mau0USp1AoXqrL6sRqX5RZWPmxFvL+4RJvMa/mzOrUcjPqAekoTJ7Ns2Milb3uKRJchzeE9+3QorhmKa68CRVNU7aKOD9gtT+iBkQ7ZBfqr/BN8g5JVw5NdMnd1QLvKlRYeEbVs5Gsaj7zQ0nTENG1XFXXbTN7KXDtjyhfcNbDohK1CK8eal1rkpW8bQSeHWBzsh3qTY5B4mEp/hkuuK02SsXEo2SXQyrQYI+n4UuwYZuyJcH+7AnU4ShlQ22Om6C/5dT+9W5JjR4z/CMKc61WW07mwzp+koN5MuHeTPrhoSnwXTr/aV31zrjFH4IVRfm6B0w9f+RivUrKzkw5zPI8HATUxieaMlXx+djOy</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OU=GOVME CA, O=GOV, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>qS9x7g80sQddiS4zR9eBdyo9YLg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2008-12-31T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">ZEKO.ME D.O.O.</Name>
+                    <Name xml:lang="en">ZEKO.ME D.O.O.</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">ZEKO.ME D.O.O.</Name>
+                    <Name xml:lang="en">ZEKO.ME D.O.O.</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Moskovska 127</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <StateOrProvince>Podgorica</StateOrProvince>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Moskovska 127</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <StateOrProvince>Podgorica</StateOrProvince>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="sr">mailto:info@zeko.me</URI>
+                        <URI xml:lang="en">mailto:info@zeko.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="sr">https://knjiga.edostava.me/</URI>
+                    <URI xml:lang="en">https://book.edostava.me/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Usluga elektronske preporučene dostave - eDostava</Name>
+                            <Name xml:lang="en">Electronic registrered delivery service - eDostava</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFzzCCBDegAwIBAgIINgiYmGzA8UEwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCTUUxDzANBgNVBAoMBkNvcmVpdDEXMBUGA1UEYQwOVkFUTUUtMDI3NzUwMTgxFjAUBgNVBAMMDUNvcmVpdCBTdWIgQ0EwHhcNMjEwNDI0MTEzNjQ3WhcNMjQwNDIzMTEzNjQ3WjCBrDELMAkGA1UEBhMCTUUxFzAVBgNVBAoMDlpFS08uTUUgRC5PLk8uMRcwFQYDVQRhDA5WQVRNRS0wMjg2Mjc1MTEkMCIGA1UECwwbRWxla3Ryb25za2kgc2VydmlzIGVEb3N0YXZhMRMwEQYDVQQFEwoxMTAwMTI4NTA1MTAwLgYDVQQDDCdaRUtPLk1FIEQuTy5PLiAoUGXEjWF0L0F1dGVudGlmaWthY2lqYSkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwsUqm67JW1LlH7twdXBo6O2s+p+SaujeAXcNH4ExvNiO49xiF1voWvdN6x/SXSiyUwtno5iRfqBeaTdgKkIGmN6I7wAW0plxbiiHQdYRM+IJZeSlWlGlvOk/eS2kr/xGLzJd1wJFbCRWXlPIhs+DWt7WeuGolhAL7/Kg94MTWMw5cBSTfi3Pp+7rarVHd606pu/6Jj+5WCSG+FU7V/XC2Mj7plcdvY+qw+KOsvv0xZfkpxDhbYOHHcXf4o7AT0WHBHzPdAXATSs11Ha6tQe+LblSwWHyJeIQNkl0afvRIEBlglDqtIbSeUK73PrPswveNpba1a5mj2gXdg2HRUFBnAgMBAAGjggHPMIIByzAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFLfF/OeJ8k67rUbH9CTANLzC1T+MHEGCCsGAQUFBwEBBGUwYzAvBggrBgEFBQcwAoYjaHR0cDovL2NhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQS5jZXIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9vY3NwLmNhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQTAcBgNVHREEFTATgRFwcmVrb0BlZG9zdGF2YS5tZTBCBgNVHSAEOzA5MDcGDSsGAQQBg6MpAQECAgEwJjAkBggrBgEFBQcCARYYaHR0cDovL2NhLmNvcmVpdC5tZS9jcHMvMFwGCCsGAQUFBwEDBFAwTjAIBgYEAI5GAQEwEwYGBACORgEGMAkGBwQAjkYBBgIwLQYGBACORgEFMCMwIRYbaHR0cHM6Ly9jYS5jb3JlaXQubWUvcGRzL2VuEwJlbjA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vY3JsLmNhLmNvcmVpdC5tZS9Db3JlaXRTdWJDQS5jcmwwHQYDVR0OBBYEFC1QA8S7y7N8dmFZ3weuCG7JvU9CMA4GA1UdDwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAYEAraQXL5dSh8uNtVGzcUfGy+TKOYqtXZx6PxAs2AbKV4S5/JzXyeEU7t4B8aUoGz1Z5QvUo+58vtKV7MjLEaWqDASOuGBPwmF0U7tmQDhOu0QHGbRPjmMlUtxOYFaQvRtfqGDVztgaq7lNOurjIu+V4BY+64eeaOCJkgFphLI8uwzzD16UwCD5sWm2/iUJlDKai/FbBcrck+vR9bJnyDBQdZUhv3c06H+uGT0v3gYjayU0ZyVb32Dspcixv54NbXYLP5X23fuP4DUHjupArCG8LrbK2dLhb24NetVuxv578ifc30TIsOEViia9kNGONR9+lN/SaGdcpJs5kHi2faKQ5TplifqxiQQQSL6YOwD9Pk+ZBc9TJHB7h9pvHHvgFvReQDkRC4k7m3gp5ARfs2bEr+2K46cHipdTVOCV7W8oCu4GrU8pRIGFh3RnxoZuSpV3lMgKmysfloXAX3yuW9lKeYTMQBjjG8PZURljEm7S6HekNcH6qth8y+NLTCTKKPaO</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ZEKO.ME D.O.O. (Pečat/Autentifikacija), SERIALNUMBER=1100128505, OU=Elektronski servis eDostava, OID.2.5.4.97=VATME-02862751, O=ZEKO.ME D.O.O., C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>LVADxLvLs3x2YVnfB64Ibsm9T0I=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2021-09-19T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="sr">Centralna banka Crne Gore</Name>
+                    <Name xml:lang="en">Central bank of Montenegro</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="sr">Centralna banka Crne Gore</Name>
+                    <Name xml:lang="en">Central bank of Montenegro</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="sr">
+                            <StreetAddress>Bulevar Svetog Petra Cetinjskog br.6</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Bulevar Svetog Petra Cetinjskog br.6</StreetAddress>
+                            <Locality>Podgorica</Locality>
+                            <PostalCode>81000</PostalCode>
+                            <CountryName>ME</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="sr">mailto:cbcg-ca@cbcg.me</URI>
+                        <URI xml:lang="en">mailto:cbcg-ca@cbcg.me</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="sr">https://www.cbcg.me</URI>
+                    <URI xml:lang="en">https://www.cbcg.me</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">Root_CA_Centralna_Banka_CG</Name>
+                            <Name xml:lang="en">Root_CA_Centralna_Banka_CG</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEzzCCAzegAwIBAgIUS7mcZYbJVMIu345KoUtgS7qV88MwDQYJKoZIhvcNAQELBQAwbzELMAkGA1UEBhMCTUUxIjAgBgNVBAoMGUNlbnRyYWxuYSBCYW5rYSBDcm5lIEdvcmUxFzAVBgNVBGEMDlZBVE1FLTAyMDExMzI4MSMwIQYDVQQDDBpSb290IENBIENlbnRyYWxuYSBCYW5rYSBDRzAeFw0yMTA2MDkxMzEwMjZaFw00NjA5MDExMzEwMjVaMG8xCzAJBgNVBAYTAk1FMSIwIAYDVQQKDBlDZW50cmFsbmEgQmFua2EgQ3JuZSBHb3JlMRcwFQYDVQRhDA5WQVRNRS0wMjAxMTMyODEjMCEGA1UEAwwaUm9vdCBDQSBDZW50cmFsbmEgQmFua2EgQ0cwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCdJH750lKoD/8TX/uANyBmGFHtTHjIGiQpJbayHmvLexo/HTum64X0UzHUj0sKbyAYf+p8esnT4Nz+z5J0CleVTKX0y1wKjAD2Gjx9XAx9p2kJLKMDmJ0dp6s9yj0le0Bbh9zga7HXKuiU6pmWq3SIVBZczX5/fuQh38s51GK2GKxvg9m+Yqed+3dO1XQ/35EQksm6pAkVADEoEKDvqVdkj6D/qBS4UKmmxknupCM9BMJIBXaXxo8LQvVCkR0WIDAD0+xaU7J5dDa5Q1Zy3H1Z50kGkZMipE+SjOLX0oehTwbRsR0JY7NFL0JiHBBdDjGneBg2/1I238RfssGB7ca9xPE67HAl+aa8uDIP/0FNlZd9A9q8iDr7VnFPdoDUcdJuOzN4anzZiuzX7OefofEyn1hg2jKM/uN/e6TQaZ55kXXjhANA6MBWZOE2rSMLqBIJ6g1wFycZ7vA4hd5mfmgwXqF+r1WB/m1sJC0ZHu7rj3Vn8uMnuId+ZF3QC1D81OkCAwEAAaNjMGEwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBThNo4v2Nl6yG8dPsjhzIZsuEza+jAdBgNVHQ4EFgQU4TaOL9jZeshvHT7I4cyGbLhM2vowDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3DQEBCwUAA4IBgQBOP3Nhu6DXAlqSPPukvhFp3sLKENRKpzcZPVawuXuigZLqlZA0IGNdzeqZtVsDxvYsEwQEaFUc7qXaD2QZSZ+8XnSJmZjwcm6hfr3+QLDzmQRkMDZG8FgC+55lvy2wBie+AfnzSGnOxYtrgDPvKb0pObuWF1AHRqagWcla9Kxp6Od1IjD4njgCU4ocl7cXWU2ARaTXfhJcpacImBLR8lAozdmLE2Jvn+nTEnbWm13yUTtHiHiiClGwMACbOybLnjCuN7joxzoHvO2imAV5ThlqAM77Tqu0mpAsnwxI2tB3SZyd0DupY9SXgPswr7oEkoY8hw+Wvm0AQ4M5ycnj+mUuDsGe4Yd3TLHq68srUz9T4XqGHs5LLiW+uGARKctkFevEvElGxWpZxMhvThPqXphqIAKgIAna8GGmb54c7WeSiy1kv+Nz8cn+DlHwGpPTFeT2/UrXPZTMYIpx34/niyZ4wrIloqvTGDOepft3wuZqHWGfhRukVCAtKKPZ8gXLisk=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Root CA Centralna Banka CG, OID.2.5.4.97=VATME-02011328, O=Centralna Banka Crne Gore, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4TaOL9jZeshvHT7I4cyGbLhM2vo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2022-01-19T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sr">CA_Centralna_Banka_CG</Name>
+                            <Name xml:lang="en">CA_Central_Bank_MNE</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CA Centralna Banka CG, OID.2.5.4.97=VATME-02011328, O=Centralna Banka Crne Gore, C=ME</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>9y2ZBp/1PBNNS18xW5G5CYoRzGo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2022-01-19T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+    </TrustServiceProviderList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-8de45b9dcf6576bd409bb50972dd84c5"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-id-8de45b9dcf6576bd409bb50972dd84c5-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-filter2:XPath xmlns:dsig-filter2="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-filter2:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wDhXnxLIyrbyfsO87P0t+qD2bEzPDLFU8AxgZUBhIRQ=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-8de45b9dcf6576bd409bb50972dd84c5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZiNW1m9+Kmp4HwmzJjbeHD7hxmmeuH9vhGcmH4Hl4Pg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-8de45b9dcf6576bd409bb50972dd84c5">YD+gJzLod06kbg/21DCJHGtFSPUn2N9iT40c8kOTrLC+UyhISCK43OmyLKn4a+Ojpwcx4yJD/wcHHgk6qMeNTk9V4QWpwUGFaSXH93nnluRPZcXAZY2cuVaKk+u2mdv2SfsxLIZ3BEjK5Pv7GE7VtFM0xT0zKSEebGzIuIa6eCZjlnhczVtZ67kL9ruHRrX3UUJHtzAOx0ImGHQGQJlKhdaVO8oCQVQjMi3XRy29AcxhoZKfgW8SWq8LAm3pmachgUZJQW5/oNaK3UWp+C/MRUqrt64EHV1ZphdufJZikiTMIzyK15uTmzPYb2NWN117QYE7LVAlett/37+NnMii5w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIIWC8CJOpGfrcwDQYJKoZIhvcNAQELBQAwaTELMAkGA1UEBhMCTUUxIjAgBgNVBAoTGU1pbmlzdGFyc3R2byBqYXZuZSB1cHJhdmUxFTATBgNVBAMTDE1hcmFzaCBEdWthajEPMA0GA1UEKhMGTWFyYXNoMQ4wDAYDVQQEEwVEdWthajAeFw0yMjA3MDcwOTA5MDBaFw0yNTA3MDcwOTA5MDBaMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSZXOeOWAnxtCwwVHc9WAV8lPLqBICbK/E668UMYhYH81nGR5j/4bV0YiAaao7LyJA50jINFfEXMsXJmTmVI2FIwVb5mXxbe7E2w0f33kOVlD6cNap4nB3Jk8NAVFMg3NEudxwYqQ4U9tFyyLd8JPFfRnqKKz3EHn0ylV4BWmRIJ6qOC2N4/UzF9y6lsPtrw4kaaeVKYrermKjz9ztOSeFfbc9vNooKkHZWFf2bqfHpTruz3smRmvd8X2tZD+QJiWFU259klWdr2eWYyJXBpeum8FGjooAd7V6958mig7JY0gZD+cMOSAeV4/JkgPrllIWcgWBK6skQPV+v3sx3i4VAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFNERkUdYYeIwmSJfHCaoHaXUoU37MA4GA1UdDwEB/wQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACuA0cR6hUZ1a/ucukLJbJeH0Yw9j4smHQGDEOl9Ij242W3fCjbOw48dXvY9BQrGHr8njScWCn+LfPvTzQX7wgNHnJ9raniYnUz69Cv+9o/KefKyqXdN46y4O0Gob7yo+S0twANewhzP2aBYYs9/lSO0UhJe48fqIUl8Qg339NRpcmcq/gtCr0KPYOrzCgF5RsCXDKZmN9h8wuf4V14+Wi8Rg8u6x3C205svVdo5YhmbbdxO9fIlGDhU6KECHqEcWVJzhWRLo32QuZ+6D+YLrSRsg7EKRnVWFQa9lyjBMqFowvijwon8OXK4kdbK2gjy4A5co26CDp/vpvsJt+FEN2A=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-8de45b9dcf6576bd409bb50972dd84c5"><xades:SignedProperties Id="xades-id-8de45b9dcf6576bd409bb50972dd84c5"><xades:SignedSignatureProperties><xades:SigningTime>2023-03-01T09:58:48Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>y8yO3hXdnHLJK2pCxk3XDzJ/XTUhmiohtXzuJFYTC7vapnTsMTDeaAI9hlGUdmDmwOguNzhl/7KZM5b1sC4yew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MHkwbaRrMGkxCzAJBgNVBAYTAk1FMSIwIAYDVQQKExlNaW5pc3RhcnN0dm8gamF2bmUgdXByYXZlMRUwEwYDVQQDEwxNYXJhc2ggRHVrYWoxDzANBgNVBCoTBk1hcmFzaDEOMAwGA1UEBBMFRHVrYWoCCFgvAiTqRn63</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-id-8de45b9dcf6576bd409bb50972dd84c5-1"><xades:MimeType>text/plain</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
