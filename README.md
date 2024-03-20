@@ -53,8 +53,8 @@ mne-leaf-ca-bundle.pem
 mne-leaf-ca-bundle.p7b
 
 ###  INFO
-TSL sequence number: 13
-List issue date time: 2023-12-14T02:00:00Z
-Next update date time: 2024-06-13T23:00:00Z
+TSL sequence number: 14
+List issue date time: 2024-03-19T02:00:00Z
+Next update date time: 2024-09-18T23:00:00Z
 ```
 
