@@ -8,7 +8,7 @@ You should first search www.gov.me for the latest published records. Please note
 
 ## Variable settings
 
-TRUST_LIST_URL=https://wapi.gov.me/download/06af19ec-36b8-4a64-a215-d6eef2d913d3?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/9a0edb3d-5e4e-4fa6-bcca-d23fa0f5fbcd?version=1.0
 
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/133d6553-1d2b-4302-833d-3f359441ee2b?version=1.0
 
