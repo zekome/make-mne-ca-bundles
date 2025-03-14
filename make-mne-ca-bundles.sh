@@ -12,7 +12,7 @@
 set -euo pipefail
 
 # adjust on next known update (!!!)
-TRUST_LIST_URL=https://wapi.gov.me/download/91f2f174-8020-4a92-9e80-56d1ee97512b?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/cb0f9471-5b8a-4143-adbb-3ddd7ae3a871?version=1.0
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/133d6553-1d2b-4302-833d-3f359441ee2b?version=1.0
 
 # filenames
