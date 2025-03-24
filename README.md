@@ -8,7 +8,7 @@ You should first search www.gov.me for the latest published records. Please note
 
 ## Variable settings
 
-TRUST_LIST_URL=https://wapi.gov.me/download/cb0f9471-5b8a-4143-adbb-3ddd7ae3a871?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/80f77a60-3a92-4a36-86b2-ca90d9a52df1?version=1.0
 
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/133d6553-1d2b-4302-833d-3f359441ee2b?version=1.0
 
@@ -26,6 +26,8 @@ C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica,
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust GP CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust RP CA
 C=ME, O=GOV, OU=GOVME CA
+C=ME, O=Ministarstvo javne uprave/organizationIdentifier=VATME-11070043, CN=GovME Root CA
+C=ME, O=Ministarstvo javne uprave/organizationIdentifier=VATME-11070043, CN=GovME Sub CA
 C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=Root CA Centralna Banka CG
 C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=CA Centralna Banka CG
 
@@ -35,6 +37,7 @@ C=me, O=PostaCG, CN=PostaCG CA
 C=ME, O=Coreit/organizationIdentifier=VATME-02775018, CN=Coreit Root CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust Root CA
 C=ME, O=GOV, OU=GOVME CA
+C=ME, O=Ministarstvo javne uprave/organizationIdentifier=VATME-11070043, CN=GovME Root CA
 C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=Root CA Centralna Banka CG
 
 ###  LEAF
@@ -42,6 +45,7 @@ C=ME/organizationIdentifier=VATME-02016010, O=Ministarstvo unutra\xC5\xA1njih po
 C=ME, O=Coreit/organizationIdentifier=VATME-02775018, CN=Coreit Sub CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust GP CA
 C=ME/organizationIdentifier=VATME-02289377, O=Crnogorski Telekom A.D. Podgorica, CN=CTrust RP CA
+C=ME, O=Ministarstvo javne uprave/organizationIdentifier=VATME-11070043, CN=GovME Sub CA
 C=ME, O=Centralna Banka Crne Gore/organizationIdentifier=VATME-02011328, CN=CA Centralna Banka CG
 
 ###  FILES
@@ -53,8 +57,8 @@ mne-leaf-ca-bundle.pem
 mne-leaf-ca-bundle.p7b
 
 ###  INFO
-TSL sequence number: 17
-List issue date time: 2025-02-20T02:00:00Z
-Next update date time: 2025-08-19T23:00:00Z
+TSL sequence number: 18
+List issue date time: 2025-03-17T02:00:00Z
+Next update date time: 2025-09-16T23:00:00Z
 ```
 
