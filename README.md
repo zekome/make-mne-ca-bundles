@@ -8,13 +8,14 @@ You should first search www.gov.me for the latest published records. Please note
 
 ## Variable settings
 
-TRUST_LIST_URL=https://wapi.gov.me/download/51939543-dfeb-46b8-8d0d-a283f469a255?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/c58841f4-71a5-4cb4-afc4-e47bb8c220d0?version=1.0
 
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/191722c5-7d65-4548-b0bb-7ce110546685?version=1.0
 
 ## Run script example
 
 ```shell
+./make-mne-ca-bundles.sh 
 ### ALL
 C=ME/organizationIdentifier=VATME-02016010, O=Ministarstvo unutra\xC5\xA1njih poslova, CN=MNE eID Root CA
 C=ME/organizationIdentifier=VATME-02016010, O=Ministarstvo unutra\xC5\xA1njih poslova, CN=MNE eID CA1
@@ -56,8 +57,8 @@ mne-leaf-ca-bundle.pem
 mne-leaf-ca-bundle.p7b
 
 ###  INFO
-TSL sequence number: 21
-List issue date time: 2025-08-01T01:00:00Z
-Next update date time: 2026-02-01T00:00:00Z
+TSL sequence number: 22
+List issue date time: 2025-12-02T02:00:00Z
+Next update date time: 2026-06-01T23:00:00Z
 ```
 
