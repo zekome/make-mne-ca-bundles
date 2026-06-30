@@ -8,7 +8,7 @@ You should first search www.gov.me for the latest published records. Please note
 
 ## Variable settings
 
-TRUST_LIST_URL=https://wapi.gov.me/download/3ae4c69f-259a-4717-b5bb-8712f3bc2d7a?version=1.0
+TRUST_LIST_URL=https://wapi.gov.me/download/bcc841b4-97ae-4aad-a875-695041cb0a4b?version=1.0
 
 TRUSTED_SIGNER_URL=https://wapi.gov.me/download/191722c5-7d65-4548-b0bb-7ce110546685?version=1.0
 
@@ -57,8 +57,8 @@ mne-leaf-ca-bundle.pem
 mne-leaf-ca-bundle.p7b
 
 ###  INFO
-TSL sequence number: 24
-List issue date time: 2026-05-06T01:00:00Z
-Next update date time: 2026-11-06T00:00:00Z
+TSL sequence number: 26
+List issue date time: 2026-06-23T01:00:00Z
+Next update date time: 2026-12-23T00:00:00Z
 ```
 
